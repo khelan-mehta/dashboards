@@ -1,0 +1,6 @@
+# key never goes in the repo
+*.key
+# decrypted contents: only the .enc files are tracked
+/*/*
+!/*/*.enc
+node_modules/
